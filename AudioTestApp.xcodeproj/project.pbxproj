@@ -14,6 +14,7 @@
 		D2802D3B28910FC20011B952 /* AudioTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2802D3A28910FC20011B952 /* AudioTestAppTests.swift */; };
 		D2802D4528910FC20011B952 /* AudioTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2802D4428910FC20011B952 /* AudioTestAppUITests.swift */; };
 		D2802D4728910FC20011B952 /* AudioTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2802D4628910FC20011B952 /* AudioTestAppUITestsLaunchTests.swift */; };
+		D2802D5428910FE40011B952 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2802D5328910FE40011B952 /* AudioRecorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D2802D4028910FC20011B952 /* AudioTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2802D4428910FC20011B952 /* AudioTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTestAppUITests.swift; sourceTree = "<group>"; };
 		D2802D4628910FC20011B952 /* AudioTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2802D5328910FE40011B952 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		D2802D2828910FC10011B952 /* AudioTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				D2802D5328910FE40011B952 /* AudioRecorder.swift */,
 				D2802D2928910FC10011B952 /* AudioTestAppApp.swift */,
 				D2802D2B28910FC10011B952 /* ContentView.swift */,
 				D2802D2D28910FC10011B952 /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2802D5428910FE40011B952 /* AudioRecorder.swift in Sources */,
 				D2802D2C28910FC10011B952 /* ContentView.swift in Sources */,
 				D2802D2A28910FC10011B952 /* AudioTestAppApp.swift in Sources */,
 			);
